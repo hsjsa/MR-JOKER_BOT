@@ -20,8 +20,8 @@ class Config(object):
     TOKEN = "5031427097:AAFBwYpQ3wlgXrv4nSDPf8J3Mcflh3ZJ9KU"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 5042525177  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "IamRooot"
-    SUDO_USERS = "1818001569 2005755862 1287276743 5042525177"
-    SUPPORT_USERS = "1818001569 2005755862 1287276743 5042525177"
+    SUDO_USERS = "5042525177"
+    SUPPORT_USERS = "5042525177"
     SUPPORT_CHAT = "Mr_Jokr_support"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001235511467
