@@ -31,7 +31,7 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgresql://postgres:Zl6W4xTa1p3GLA8pVdDq@containers-us-west-27.railway.app:5658/railway"  # needed for any database modules
     REDIS_URI = " "
     LOAD = []
     NO_LOAD = []
@@ -84,7 +84,7 @@ class Config(object):
     AI_API_KEY = ""  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
-    REM_BG_API_KEY = ""
+    REM_BG_API_KEY = "gQXc1AuEraj3numU671LhNhW"
     GENIUS_API_TOKEN = ""
     MONGO_DB = "mongodb+srv://root:root@cluster0.nuzmg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     
